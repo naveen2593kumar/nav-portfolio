@@ -1,0 +1,25 @@
+const data = [
+    { skill: 'HTML & CSS', rating: 10 },
+    { skill: 'JavaScript', rating: 10 },
+    { skill: 'ReactJS + Redux', rating: 10 },
+    { skill: 'Jest, Mocha, Karma, Chai', rating: 10 },
+    { skill: 'WebdriverIO.JS, SinonJS', rating: 10 },
+    { skill: 'TypeScript', rating: 7 },
+    { skill: 'PolymerJS, Lit Element', rating: 10 },
+    { skill: 'Responsive Web Design', rating: 10 },
+    { skill: 'Java – Swing, Struts2, Spring', rating: 5 },
+    { skill: 'CICD', rating: 9 },
+    { skill: 'Node.js – Express.js', rating: 9 },
+    { skill: 'Version Control - Git', rating: 10 },
+    { skill: 'SQL & NoSQL DB', rating: 7 },
+    { skill: 'Docker, Kubernetes', rating: 7 },
+    { skill: 'CSS preprocessors - SASS', rating: 7 },
+    { skill: 'Themes – Material, Bootstrap', rating: 7 },
+    { skill: 'VS Code & plugins', rating: 10 },
+    { skill: 'jQuery', rating: 7 },
+    { skill: 'Rest APIs, HTTP, AJAX', rating: 9 },
+    { skill: 'React Native', rating: 4 },
+    { skill: 'Android', rating: 4 },
+];
+
+export default data;

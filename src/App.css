@@ -1,0 +1,148 @@
+.wrapper {
+    background: linear-gradient(#3f2ada, #c032c7 70%);
+    min-height: 100vh;
+    display: flex;
+    color: white;
+}
+
+progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 8px;
+    width: 90%;
+}
+
+progress::-webkit-progress-bar {background-color: #d9d1f7;  }
+progress::-webkit-progress-value {background-color: #3f2adb; }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255,255,255,0.8);
+    text-decoration: underline;
+}
+
+.side-content {
+    flex: 1;
+    background: red;
+    border-radius: 16px;
+    margin: 16px 8px 16px 16px;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    min-height: calc(100vh - 32px);
+}
+
+.main-content {
+    flex: 2;
+    border-radius: 16px;
+    margin: 16px 16px 16px 8px;
+    background: white;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    min-height: calc(100vh - 64px);
+}
+.user-name {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.user-role {
+    text-align: center;
+}
+
+.user-picture {
+    width: 100px;
+    margin: 0 auto;
+    position: absolute;
+    top: -76px;
+    left: calc(50% - 50px);
+}
+
+.user-picture > img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.user-aboutme-pic-box {
+    width: 100%;
+    background-color: rgba(255,255,255, 0.2);
+    border-radius: 16px;
+    border: 1px solid white;
+    position: relative;
+    margin-top: 88px;
+    padding-top: 16px;
+}
+
+.user-aboutme-box {
+    padding: 8px;
+}
+
+.user-aboutme-title{
+    font-weight: bold;
+}
+
+.user-aboutme-content {
+    font-size: 12px;
+}
+
+.user-contact-chip {
+    background-color: rgba(255,255,255,0.2);
+    margin: 16px;
+    padding: 10px 16px;
+    border-radius: 32px;
+    display: flex;
+}
+
+.user-contact-chip > a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.user-side-box {
+    padding: 16px;
+}
+
+.user-side-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.user-side-box > nav {
+    padding: 6px 32px;
+}
+main.main-content {
+    color: #000;
+    padding: 16px;
+}
+
+.main-title {
+    background-color: #9430be;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 32px;
+    max-width: 30%;
+    font-weight: bold;
+    position: relative;
+}
+
+.main-title::after {
+    content: '';
+    background-color: #9430be;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 100%;
+    top: calc(50% - 4px);
+}
+
+.pill {
+    background-color: rebeccapurple;
+    padding: 4px;
+}
