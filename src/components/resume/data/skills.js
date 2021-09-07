@@ -1,6 +1,6 @@
 const data = [
     { skill: 'HTML & CSS', rating: 10 },
-    { skill: 'JavaScript', rating: 10 },
+    { skill: 'JavaScript & ES6', rating: 10 },
     { skill: 'ReactJS + Redux', rating: 10 },
     { skill: 'Jest, Mocha, Karma, Chai', rating: 10 },
     { skill: 'WebdriverIO.JS, SinonJS', rating: 10 },
@@ -8,7 +8,7 @@ const data = [
     { skill: 'PolymerJS, Lit Element', rating: 10 },
     { skill: 'Responsive Web Design', rating: 10 },
     { skill: 'Java – Swing, Struts2, Spring', rating: 5 },
-    { skill: 'CICD', rating: 9 },
+    { skill: 'CICD - GitlabCI, AzureDevOps', rating: 9 },
     { skill: 'Node.js – Express.js', rating: 9 },
     { skill: 'Version Control - Git', rating: 10 },
     { skill: 'SQL & NoSQL DB', rating: 7 },

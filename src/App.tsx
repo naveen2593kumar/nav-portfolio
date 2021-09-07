@@ -40,9 +40,9 @@ function App() {
                 <div className="user-aboutme-title">ABOUT ME</div>
                 <div className="user-aboutme-content">
                   In my career, I have played numerous roles, achieved many milestones, tackled various challenges.
-                  I have justified the requirement of my roles. In this journey I have been a <strong>Tech mentor, Scrum master, Team lead</strong> etc.
+                  I have justified the requirement of my roles. In this journey I have been a <strong>Tech mentor, Scrum master</strong> etc.
                   I have learned a lot and enjoyed each phase of my career.<br />
-                  To Summaries, I would like to call myself a <strong>technologist</strong> with strong determination to explore new challenges.
+                  To summarize, I would like to call myself a <strong>technologist</strong> with strong determination to explore new challenges.
                 </div>
               </div>
             </section>
@@ -51,10 +51,10 @@ function App() {
                 <EmailIcon style={{ marginRight: 4 }} /> <a href="mailto:naveen2593kumar@gmail.com">naveen2593kumar@gmail.com</a>
               </div>
               <div className="user-contact-chip">
-                <PhoneIcon style={{ marginRight: 4 }} /> <a href="tel:+33601095233">+33 601095233</a>
+                <PhoneIcon style={{ marginRight: 4 }} /> <a href="tel:+917042119756">+91 7042119756</a>
               </div>
               <div className="user-contact-chip">
-                <LocationIcon style={{ marginRight: 4 }} /> <span>Courbevoie, 92400, France</span>
+                <LocationIcon style={{ marginRight: 4 }} /> <span>Roorkee, 247667, UKND, India</span>
               </div>
             </section>
 
@@ -62,15 +62,16 @@ function App() {
               <Grid item xs={6}>
                 <section className="user-side-box">
                   <header className="user-side-title">LINKS</header>
-                  <nav><a href="https://github.com/naveen2593kumar">Github</a></nav>
-                  <nav><a href="https://www.linkedin.com/in/naveen-kumar-83959b11b/">LinkedIn</a></nav>
-                  <nav><a href="https://stackoverflow.com/users/7518108/naveen-kumar">Stackoverflow</a></nav>
+                  <nav><a rel="noreferrer" target="_blank" href="https://github.com/naveen2593kumar">Github</a></nav>
+                  <nav><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/naveen-kumar-83959b11b/">LinkedIn</a></nav>
+                  <nav><a rel="noreferrer" target="_blank" href="https://stackoverflow.com/users/7518108/naveen-kumar">Stackoverflow</a></nav>
                 </section>
               </Grid>
               <Grid item xs={6}>
                 <section className="user-side-box">
                   <header className="user-side-title">LANGUAGES</header>
                   <nav>English</nav>
+                  <nav>Hindi</nav>
                 </section>
               </Grid>
             </Grid>
